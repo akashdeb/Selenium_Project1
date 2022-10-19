@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\New folder (3)\mavenproject\php.crm.Vtiger.project31\.metadata\.plugins\org.eclipse.jdt.core
+3959137331.index
+2510609146.index
+1865797976.index

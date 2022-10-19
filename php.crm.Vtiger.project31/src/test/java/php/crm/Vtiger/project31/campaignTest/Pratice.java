@@ -7,5 +7,6 @@ public class Pratice {
 	public void demo() {
 		System.out.println("project is started");
 		System.out.println("enter");
+		System.out.println("enter");
 	}
 }

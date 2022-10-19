@@ -31,7 +31,7 @@ public class Practice {
 
 
 		System.out.println("Commit by himanshu on local");
-		System.out.println("Commit by sanjay giri in local);
+		
 		
 	}
 	

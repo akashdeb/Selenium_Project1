@@ -45,6 +45,7 @@ public class CreateCampaignTest extends BaseClass {
 		String actualCampaignName = campaignDetails.verifyCampaignName(campaignName);
 		System.out.println(actualCampaignName);
 		System.out.println(expectedCampaignName);
+		System.out.println("campaign name is varifying by PR");
 		
 		Assert.assertEquals(actualCampaignName, expectedCampaignName);
 		System.out.println("Campaign Name is verified");

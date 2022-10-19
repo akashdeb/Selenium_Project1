@@ -22,6 +22,12 @@ public class Practice {
 		
 		System.out.println("Demo Print");
 		System.out.println("Demo Print");
+		
+		System.out.println("This thing is not working properly");
+		
+		System.out.println("Global print ");
+		System.out.println("Global print ");
+		System.out.println("Trying to send by creating branch");
 
 	}
 	

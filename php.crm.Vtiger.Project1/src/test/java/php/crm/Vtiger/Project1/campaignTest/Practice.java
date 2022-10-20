@@ -23,12 +23,9 @@ public class Practice {
 		System.out.println("Demo Print");
 
 		System.out.println("Local Change");
-
 		System.out.println("Demo Print");
 		System.out.println("Global Change");
 		System.out.println("Global Change");
-
-
 
 	}
 	

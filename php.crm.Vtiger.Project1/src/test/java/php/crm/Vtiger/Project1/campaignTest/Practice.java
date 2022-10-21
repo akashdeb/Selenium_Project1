@@ -28,10 +28,6 @@ public class Practice {
 		System.out.println("Global Change1");
 
 
-
-
-		
-		
 	}
 	
 }

@@ -35,6 +35,7 @@ public class LoginPage {
 	public WebElement getSignInButton() {
 		return signInButton;
 	}
+	
 	/**
 	 * This method is used to login to Vtiger
 	 * @param username

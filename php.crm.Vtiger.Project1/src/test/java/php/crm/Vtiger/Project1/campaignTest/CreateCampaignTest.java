@@ -18,10 +18,18 @@ import php.crm.Vtiger.Project1.pomRepository.CampaignDetailsPage;
 import php.crm.Vtiger.Project1.pomRepository.CampaignsPage;
 import php.crm.Vtiger.Project1.pomRepository.CreatingNewCampaignPage;
 import php.crm.Vtiger.Project1.pomRepository.HomePage;
-
+/**
+ * This class is used to create customer
+ * @author Akash
+ *
+ */
 @Listeners(php.crm.Vtiger.Project1.genericUtitlity.ListenersImplementationClass.class)
 public class CreateCampaignTest extends BaseClass {
-	
+	/**
+	 * This script is used to create customer
+	 * @throws EncryptedDocumentException
+	 * @throws IOException
+	 */
 	@Test //(retryAnalyzer = php.crm.Vtiger.Project1.genericUtitlity.IRetryAnalyserImplementationClass.class)
 	public void createCampaignAndVerfiyCampaignNameTest() throws EncryptedDocumentException, IOException {
 		

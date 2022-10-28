@@ -1,6 +1,7 @@
 package php.crm.Vtiger.Project1.genericUtitlity;
 
 import java.io.IOException;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -16,12 +17,22 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import php.crm.Vtiger.Project1.pomRepository.HomePage;
 import php.crm.Vtiger.Project1.pomRepository.LoginPage;
 
+/**
+ * This is a Base Class
+ * @author Akash
+ *
+ */
+
 public class BaseClass {
 	
 	public WebDriver driver;
 	public static WebDriver sDriver;
 	public JavaUtility jutils = new JavaUtility();
 	WebDriverUtility wUTils=new WebDriverUtility();
+	
+	/**
+	 * This method is used to connect to DataBase
+	 */
 	@BeforeSuite
 	public void bsconfig() {
 		System.out.println("Data base connection has been established");

@@ -5,6 +5,9 @@ package php.crm.Vtiger.Project1.genericUtitlity;
  *
  */
 public interface IPathConstant {
+	/**
+	 * 
+	 */
 	
 	String SHEET_NAME = "Sheet2";
 	int IMPLICIT_WAIT = 20;

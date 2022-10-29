@@ -2,11 +2,7 @@ package php.crm.Vtiger.Project1.campaignTest;
 
 import java.util.Date;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
-
-import php.crm.Vtiger.Project1.genericUtitlity.JavaUtility;
 
 public class Practice {
 
